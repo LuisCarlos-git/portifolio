@@ -11,15 +11,19 @@ export default function Header() {
       <Navigation>
         <List>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/">Sobre</Link>
           </li>
 
           <li>
-            <Link to="/">Projetos</Link>
+            <Link to="/techs">Tecnologias</Link>
           </li>
 
           <li>
-            <Link to="/">Contato</Link>
+            <Link to="/projects">Projetos</Link>
+          </li>
+
+          <li>
+            <Link to="/contacts">Contato</Link>
           </li>
         </List>
       </Navigation>

@@ -20,7 +20,7 @@ export const About = styled.div`
     bottom: -2px;
     background: #05fd01;
     z-index: 1;
-    transform: skew(3deg, 3deg);
+    transform: skew(0.7deg, 0.7deg);
   }
 `;
 
@@ -45,7 +45,7 @@ export const Image = styled.div`
     bottom: -2px;
     background: #05fd01;
     z-index: 1;
-    transform: skew(3deg, 3deg);
+    transform: skew(0.7deg, 0.7deg);
   }
 `;
 export const Box = styled.div`
@@ -69,5 +69,6 @@ export const Box = styled.div`
     color: #fff;
     text-align: justify;
     line-height: 20px;
+    font-size: 1rem;
   }
 `;

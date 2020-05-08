@@ -46,7 +46,7 @@ export const List = styled.ul`
         height: 10px;
         border-top: 2px solid #05fd01;
         border-left: 2px solid #05fd01;
-        transition: 0.3s;
+        transition: 0.2s;
       }
 
       &:hover::before {
@@ -63,7 +63,7 @@ export const List = styled.ul`
         height: 10px;
         border-bottom: 2px solid #05fd01;
         border-right: 2px solid #05fd01;
-        transition: 0.3s;
+        transition: 0.2s;
       }
 
       &:hover::after {
