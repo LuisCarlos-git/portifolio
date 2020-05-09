@@ -7,7 +7,7 @@ export const Container = styled.div`
   padding: 0 30px;
 
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   align-self: center;
 `;
@@ -72,9 +72,4 @@ export const List = styled.ul`
       }
     }
   }
-`;
-export const Image = styled.div`
-  color: #fff;
-  font-weight: bold;
-  font-size: 2rem;
 `;
