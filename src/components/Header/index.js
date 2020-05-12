@@ -9,7 +9,9 @@ export default function Header() {
 
   TopBarProgress.config({
     barColors: {
-      '0': '#05fd01',
+      '0': '#FFF',
+      '0.3': '#FFF',
+      '0.5': '#05fd01',
       '1.0': '#05fd01',
     },
     shadowBlur: 5,

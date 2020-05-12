@@ -26,6 +26,9 @@ export default createGlobalStyle`
   html,body, #root {
     height: 100%;
     background: #191920;
+
+    &::-webkit-scrollbar {
+      width: 0px;
   }
 
   a {

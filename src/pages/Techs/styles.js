@@ -31,8 +31,6 @@ export const Container = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
-
-  9k
 `;
 export const List = styled.ul`
   width: 80%;
